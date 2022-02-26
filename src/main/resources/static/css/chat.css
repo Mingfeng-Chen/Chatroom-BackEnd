@@ -1,0 +1,132 @@
+.talk_con {
+    width: 600px;
+    height: 500px;
+    border: 1px solid #666;
+    margin: 50px auto 0;
+    background: #f9f9f9;
+}
+
+.talk_show {
+    width: 580px;
+    height: 420px;
+    border: 1px solid #666;
+    background: #fff;
+    margin: 10px auto 0;
+    overflow: auto;
+}
+
+.talk_input {
+    width: 580px;
+    margin: 10px auto 0;
+}
+
+.whotalk {
+    width: 80px;
+    height: 30px;
+    float: left;
+    outline: none;
+}
+
+.talk_word {
+    width: 420px;
+    height: 26px;
+    padding: 0px;
+    float: left;
+    margin-left: 10px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.talk_sub {
+    width: 56px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+.atalk {
+    margin: 10px;
+}
+
+.atalk span {
+    display: inline-block;
+    background: #0181cc;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.btalk {
+    margin: 10px;
+    text-align: right;
+}
+
+.btalk span {
+    display: inline-block;
+    background: #ef8201;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+
+#chatBody {
+    border-style: solid;
+    border-color: dodgerblue;
+    width: 100%;
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+#chatMain {
+    border-style: solid;
+    border-color: crimson;
+    width: 65%;
+    float: left;
+    height: 95%;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+#chatCnt {
+    background-color: aliceblue;
+    border-style: solid;
+    width: 95%;
+    height: 65%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+#chatArea {
+    background-color: azure;
+    border-style: solid;
+    width: 95%;
+    height: 30%;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+
+#lists {
+    border-style: solid;
+    border-color: aquamarine;
+    float: right;
+    width: 30%;
+    height: 95%;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#tex_content {
+    width: 99%;
+    height: 75%;
+}
+
+
+#submit {
+    float: right;
+    width: 200px;
+    background-color: #34d9d9;
+}

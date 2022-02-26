@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!--引入js-->
+    <script type="text/javascript" src="/js/jquery.js"></script></head>
+    <script type="text/javascript" src="/js/index.js"></script></head>
+<body>
+    <h1 style="text-align: center">首页</h1>
+    <table border="2" style="margin: auto">
+        <tr>
+            <td>用户名：</td>
+            <td>
+                <input id="uname" name="username" type="text" placeholder="请输入用户名称">
+            </td>
+        </tr>
+        <tr>
+            <td>密&nbsp&nbsp&nbsp&nbsp码：</td>
+            <td>
+                <input id="pwd" name="password" type="password" placeholder="请输入密码">
+            </td>
+        </tr>
+        <tr >
+            <td colspan="2" align="center">
+                <input id="btn" type="button" value="登录" onclick="login()">
+            </td>
+        </tr>
+    </table>
+    <p>备注信息：用户名称任意，密码处填写YML配置文件中配置的密码</p>
+</body>
+</html>
